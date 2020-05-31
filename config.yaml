@@ -1,0 +1,5 @@
+dataset:
+  breakpoints : [1001,1059,1060,1122,1552,1616,1123,1194,1195,1267,1268,1323,1324,1385,1386,1437,1497,1551,1438,1496,2001,2050,2051,2113,2114,2165,2166,2230,2231,2290,2291,2346,2347,2423,2424,2485,2486,2546,2547,2612,2616,2675,3001,3055,3056,3110,3111,3175,3176,3229,3230,3281,3282,3334,3335,3389,3390,3446,3447,3510,3511,3563,3566,3621]
+  labels : ['pubescent bamboo','Chinese horse chestnut','Anhui Barberry','Chinese redbud','true indigo','Japanese maple','Nanmu','castor aralia','Chinese cinnamon','goldenrain tree','Big-fruited Holly','Japanese cheesewood','wintersweet','camphortree','Japan Arrowwood','sweet osmanthus','deodar','ginkgo, maidenhair tree','Crape myrtle, Crepe myrtle','oleander','yew plum pine','Japanese Flowering Cherry','Glossy Privet','Chinese Toon','peach','Ford Woodlotus','trident maple','Beales barberry','southern magnolia','Canadian poplar','Chinese tulip tree','tangerine']
+  data_path : data\raw\
+  test_data_path : data\test\
