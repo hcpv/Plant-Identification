@@ -13,15 +13,14 @@ def split_data(config):
     data_path = config["dataset"]["data_path"]
     test_data_path = config["dataset"]["test_data_path"]
     breakpoints = config["dataset"]["breakpoints"]
-    labels = config["dataset"]["labels"]
     images = []
     img_labels = []
     for i in range(1, len(breakpoints), 2):
         filename = str(breakpoints[i]) + '.jpg'
-        label = labels[int(i/2)]
+        label = int(i/2)
         image = Image.open(os.path.join(data_path, filename))
         images.append(np.array(image, dtype=np.uint8))
-        img_labels.append(int(i/2))
+        img_labels.append(label)
     images = np.array(images)
     img_labels = np.array(img_labels)
     filename = config["dataset"]["test_h5"]
@@ -48,5 +47,5 @@ def displayImage(config):
 
 
 # convert_to_hdf5('data.h5', config)
-displayImage(config)
-# split_data(config)
+# displayImage(config)
+split_data(config)
