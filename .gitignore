@@ -1,2 +1,3 @@
 data/raw/*.jpg
-data/test/*.jpg
+data/test/*
+!data/test/.gitkeep
