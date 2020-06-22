@@ -1,3 +1,2 @@
 data/raw/*.jpg
-!data/test/.gitkeep
-data/test/*
+data/preprocessed/*.h5
